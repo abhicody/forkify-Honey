@@ -4,8 +4,7 @@ import previewView from './previewView';
 
 class ResultsView extends View {
   _parentElement = document.querySelector('.results');
-  _errorMessage =
-    'chal re gaandu ye Dish apun ke idhar nahi milti🤣😂😆.please try again!';
+  _errorMessage = 'Dish is not Exist😕.please try again!';
   _message = '';
 
   _generateMarkup() {
