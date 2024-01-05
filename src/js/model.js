@@ -64,7 +64,7 @@ export const loadSearchResults = async function (query) {
     state.serach.page = 1;
     // console.log(state.serach.results);
   } catch (err) {
-    console.error(`(${err}🥶🤬🤮 Loda-leshan)`);
+    console.error(`(${err}🥶🤬🤮)`);
     throw err;
   }
 };
