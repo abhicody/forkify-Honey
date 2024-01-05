@@ -40,7 +40,7 @@ export const loadRecipe = async function (id) {
     console.log(state.recipe);
   } catch (err) {
     //temporary error handling
-    console.error(`${err}🥶🤬🤮 Gaand Mara BhosdiKe`);
+    console.error(`${err}🥶🤬🤮`);
     throw err;
   }
 };
