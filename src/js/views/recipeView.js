@@ -1,14 +1,14 @@
 import icons from 'url:../../img/icons.svg';
-import Fraction from 'fractional';
+// import { Fraction } from 'fractional';
 import View from './Views';
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
   _errorMessage = 'we could not find that recipe.please try again!';
   _message = '';
-
   addHandlerRender(handler) {
     ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
+    console.log(Fraction);
   }
 
   addHandlerUpdateServings(handler) {
